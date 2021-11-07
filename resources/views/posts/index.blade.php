@@ -1,10 +1,10 @@
 @extends('template')
 
 @section('content')
-<h1>Blog</h1>
+<h1 class="title">Blog Kawaii Kitty >_<'</h1>
 
     @foreach($posts as $post)
-        <h2>{{$post->title}} <i>({{$post->created_at}}) </i></h2>
+        <h2 id="title2">{{$post->title}} <i>({{$post->created_at}}) </i></h2>
         <p>{{$post->content}}</p>
         <b>Tags:</b><br>
         <ul>

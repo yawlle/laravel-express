@@ -1,0 +1,52 @@
+.title{
+    color:rgb(226, 92, 143);
+    font-size: 60px;
+    font-family: 'Fruktur', cursive;
+    text-align: center;
+}
+
+#title2{
+    font-size: 30px;
+    color:rgb(226, 92, 143); 
+}
+
+.table{
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.table td, table th { 
+    /* oq significa td e th? */
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+.table tr:hover {background-color: #ddd;}
+.table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #aa0478;
+    color: white;
+}
+
+.title2{
+    font-size: 20px;
+    font-family: Arial;
+
+}
+
+.btn{
+    border-radius: 12px;
+    background-color: #aa0478;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 14px;
+}
+
+#form{
+    font-size: 20px;
+    color:rgb(226, 92, 143);
+}
